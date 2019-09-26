@@ -1,0 +1,19 @@
+{
+  "name": "LineageOS Statistics Model Sort",
+  "version": "1.0.0",
+  "description": "Automatically resort release versions of hardware models by date of release on LineageOS Statistics website",
+  "content_scripts": [{
+    "matches": [
+      "*://stats.lineageos.org/model/*"
+    ],
+    "all_frames": true,
+    "run_at": "document_idle",
+    "js": ["content.js"]
+  }],
+  "icons": {
+      "16": "img/icon16.png",
+      "48": "img/icon48.png",
+     "128": "img/icon128.png"
+  },
+  "manifest_version": 2
+}
