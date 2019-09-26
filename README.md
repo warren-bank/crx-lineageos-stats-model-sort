@@ -7,6 +7,11 @@ Chrome extension for LineageOS Statistics website to automatically resort releas
 * rewrites DOM on pages that match the URL: `stats.lineageos.org/model/*`
   * example: [Samsung Galaxy S5](https://stats.lineageos.org/model/klte)
 * release versions are resorted from newest to oldest
+* buttons allow resorting by either:
+  * date
+  * active user count
+  * rank
+* buttons toggle between ascending and descending order
 
 #### comments:
 
