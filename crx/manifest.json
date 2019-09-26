@@ -1,6 +1,6 @@
 {
   "name": "LineageOS Statistics Model Sort",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Automatically resort release versions of hardware models by date of release on LineageOS Statistics website",
   "content_scripts": [{
     "matches": [
